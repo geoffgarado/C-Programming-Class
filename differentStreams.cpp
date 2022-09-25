@@ -16,4 +16,6 @@ int main(){
 
   // Log message
   clog << "clog output : This is a log message" << endl;
+  return 0;
 }
+
