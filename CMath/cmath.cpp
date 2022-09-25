@@ -1,5 +1,7 @@
 #include <iostream>
-#include <cmath> 
+#include <cmath>
+
+using namespace std;
 /* Imports other functions, such as sqrt(square root), round(rounds a number),
  * and log(natural logarithm), can be found in the cmath header file
 */
