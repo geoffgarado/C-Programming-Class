@@ -1,5 +1,4 @@
 #include <iostream>
-#include <string>
 
 using namespace std;
 
@@ -15,7 +14,8 @@ int main(){
   cin >> age;
   cout << "Please Enter your house number: ";
   cin >> house_num;
-  cout << "Please Enter your barangay: \n";
+  cin.ignore();
+  cout << "Please Enter your barangay: ";
   getline(cin, barangay);
   cout << "Please Enter your city: ";
   getline(cin, city);
@@ -33,5 +33,4 @@ int main(){
   cout << "Your contact number is: " << contact_number << endl;
 
   return 0;
-
 }
