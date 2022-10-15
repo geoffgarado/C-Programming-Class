@@ -3,8 +3,8 @@
 using namespace std;
 
 int main(){
-  string first_name, surname, city, province, barangay, contact_number, house_num;
-  int age;
+  string first_name, surname, city, province, barangay, contact_number;
+  int age, house_num;
 
   cout << "Please Enter your first name: ";
   getline(cin, first_name);
