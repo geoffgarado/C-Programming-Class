@@ -13,9 +13,8 @@ int main(){
   cout << "\t3. View Films" << endl;
   cout << "\nPlease select: ";
   cin >> choice;
-  cout << "-------------------------------------------" << endl;
   switch (choice) {
-    case 1: { 
+    case 1: {
       cout << "\n\n=========================" << endl;
       cout << "\tViewing prices..........." << endl;
       cout << "=========================" << endl;
@@ -25,7 +24,7 @@ int main(){
       cout << "------------------------" << endl;
       break;
     }
-    case 2: { 
+    case 2: {
       cout << "\n\n====================================" << endl;
       cout << "Viewing date and time of movies..." << endl;
       cout << "====================================" << endl;
@@ -35,6 +34,7 @@ int main(){
       cout << "====================================" << endl;
       cout << "Please select what film you wish to view: ";
       cin >> film_choice;
+
       switch (film_choice) {
         case 1: {
           cout << "\n\n====================================" << endl;
@@ -49,7 +49,7 @@ int main(){
           switch (day_choice) {
             case 1: {
               cout << "\n\n====================================" << endl;
-              cout << "\t\tMonday Times" << endl;
+              cout << "\t\tFriday Times" << endl;
               cout << "\t 9:00 AM & 3:00 PM" << endl;
               cout << "====================================" << endl;
               break;
@@ -63,13 +63,14 @@ int main(){
             }
             case 3: {
               cout << "\n\n====================================" << endl;
-              cout << "\t\tMonday Times" << endl;
+              cout << "\t\tSunday Times" << endl;
               cout << "\t 9:00 AM & 3:00 PM" << endl;
               cout << "====================================" << endl;
               break;
             }
-            default:
-              cout << "Invalid inpit, please try again......";
+            default: {
+              cout << "\n\nInvlid Input, please try again.....";
+            }
           }
           break;
         }
@@ -86,7 +87,7 @@ int main(){
           switch (day_choice) {
             case 1: {
               cout << "\n\n====================================" << endl;
-              cout << "\t\tMonday Times" << endl;
+              cout << "\t\tFriday Times" << endl;
               cout << "\t 9:00 AM & 3:00 PM" << endl;
               cout << "====================================" << endl;
               break;
@@ -100,30 +101,22 @@ int main(){
             }
             case 3: {
               cout << "\n\n====================================" << endl;
-              cout << "\t\tMonday Times" << endl;
+              cout << "\t\tSunday Times" << endl;
               cout << "\t 9:00 AM & 3:00 PM" << endl;
               cout << "====================================" << endl;
               break;
             }
-            default:
-              cout << "Invalid inpit, please try again......";
+            default: {
+              cout << "\n\nInvlid Input, please try again.....";
+            }
+          }
+          break;
         }
-        break;
-      }
         case 3: {
-          cout << "\n\n==============================================" << endl;
-          cout << "\tDespicable Me(2010)" << endl;
-          cout << "=================================================" << endl;
-          cout << "\t1. Friday" << endl;
-          cout << "\t2. Saturday" << endl;
-          cout << "\t3. Sunday" << endl;
-          cout << "====================================" << endl;
-          cout << "Please choose a day: ";
-          cin >> day_choice;
           switch (day_choice) {
             case 1: {
               cout << "\n\n====================================" << endl;
-              cout << "\t\tMonday Times" << endl;
+              cout << "\t\tFriday Times" << endl;
               cout << "\t 9:00 AM & 3:00 PM" << endl;
               cout << "====================================" << endl;
               break;
@@ -137,19 +130,22 @@ int main(){
             }
             case 3: {
               cout << "\n\n====================================" << endl;
-              cout << "\t\tMonday Times" << endl;
+              cout << "\t\tSunday Times" << endl;
               cout << "\t 9:00 AM & 3:00 PM" << endl;
               cout << "====================================" << endl;
               break;
             }
-            default:
-              cout << "Invalid inpit, please try again......";
-
-          break;
+            default: {
+              cout << "\n\nInvlid Input, please try again.....";
+            }
           }
+          break;
         }
-      break;
+        default: {
+          cout << "Invalid Input, Please try again.....";
+        }
       }
+      break;
     }
     case 3: {
       cout << "\n\n==============================================================" << endl;
@@ -160,9 +156,10 @@ int main(){
       cout << "\t3. Despicable Me (2010)" << endl;
       cout << "==============================================================" << endl;
       break;
-      }
-    default:
-      cout << "Invalid Character, please try again....";
+    }
+    default: {
+      cout << "Invalid Input, Pleease try again.....";
+    }
   }
   return 0;
 }
