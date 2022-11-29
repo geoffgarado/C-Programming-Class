@@ -25,13 +25,14 @@ int main(){
       break;
     }
     case 2: {
-      cout << "\n\n====================================" << endl;
+      cout << "\n\n==============================================================" << endl;        
       cout << "Viewing date and time of movies..." << endl;
-      cout << "====================================" << endl;
+      cout << "==============================================================" << endl;
       cout << "\t1. John Wick : Chapter 4" << endl;
       cout << "\t2. Spider-Man : Across the Spider-Verse Part 1" << endl;
       cout << "\t3. Despicable Me (2010)" << endl;
-      cout << "====================================" << endl;
+      cout << "==============================================================" << endl;
+      cout << "Viewing date and time of movies..." << endl;
       cout << "Please select what film you wish to view: ";
       cin >> film_choice;
 
@@ -49,22 +50,22 @@ int main(){
           switch (day_choice) {
             case 1: {
               cout << "\n\n====================================" << endl;
-              cout << "\t\tFriday Times" << endl;
-              cout << "\t 9:00 AM & 3:00 PM" << endl;
+              cout << "\t     Friday Times" << endl;
+              cout << "\t9:00 AM & 3:00 PM" << endl;
               cout << "====================================" << endl;
               break;
             }
             case 2: {
               cout << "\n\n====================================" << endl;
-              cout << "\t\tSaturday Times" << endl;
-              cout << "\t 9:00 AM & 3:00 PM" << endl;
+              cout << "\t     Saturday Times" << endl;
+              cout << "\t9:00 AM & 3:00 PM" << endl;
               cout << "====================================" << endl;
               break;
             }
             case 3: {
               cout << "\n\n====================================" << endl;
-              cout << "\t\tSunday Times" << endl;
-              cout << "\t 9:00 AM & 3:00 PM" << endl;
+              cout << "\t     Sunday Times" << endl;
+              cout << "\t9:00 AM & 3:00 PM" << endl;
               cout << "====================================" << endl;
               break;
             }
@@ -113,6 +114,15 @@ int main(){
           break;
         }
         case 3: {
+          cout << "\n\n==============================================" << endl;
+          cout << "\tDescipable Me(2010)" << endl;
+          cout << "=================================================" << endl;
+          cout << "\t1. Friday" << endl;
+          cout << "\t2. Saturday" << endl;
+          cout << "\t3. Sunday" << endl;
+          cout << "====================================" << endl;
+          cout << "Please choose a day: ";
+          cin >> day_choice;
           switch (day_choice) {
             case 1: {
               cout << "\n\n====================================" << endl;
